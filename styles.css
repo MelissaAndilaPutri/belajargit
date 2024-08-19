@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(79, 204, 162, 0.1);
+}
+
+header {
+    text-align: none;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header p {
+    margin: 2px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+section {
+    margin-bottom: 2px;
+}
+
+h2 {
+    border-bottom: 3px solid rgb(49, 68, 175);
+    padding-bottom: 25px;
+    font-size: 2em;
+    color: rgb(7, 88, 116);
+}
+
+ul {
+    list-style-type: right;
+    padding: 1000;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.job, .school {
+    margin-bottom: 15px;
+}
+
+.job h3, .school h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #222;
+}
+
+.job p, .school p {
+    margin: 20px 0;
+    color: rgb(37, 28, 28);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
